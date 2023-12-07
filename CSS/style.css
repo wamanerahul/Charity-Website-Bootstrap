@@ -1,0 +1,38 @@
+.charity {
+    line-height: 0px;
+    padding-bottom: 12px;
+}
+
+.carousel-inner .carousel-item img{
+    position: relative;
+    height: 700px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 27%, 51% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 100% 0, 100% 27%, 51% 100%, 0% 100%);
+}
+
+.carousel-inner .carousel-item .caption{
+    position: absolute;
+    right: 50px;
+    top: 520px;
+
+}
+
+.container .row .icon{
+    transition: 1s;
+}
+
+.container .row .icon:hover{
+    transform: scale(1);
+    box-shadow: 2px 2px 2px 2px lightslategray;
+    z-index: 2;
+}
+
+.container .row .icon img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+/* .volunteer img{
+    position: absolute;
+    right: 200px;
+} */
